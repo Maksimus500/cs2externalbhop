@@ -1,0 +1,43 @@
+﻿  main.cpp
+C:\Users\gabis\source\repos\pro-bhop\cheat\memory.h(34,21): warning C4244: =: преобразование "uintptr_t" в "int", возможна потеря данных
+  (компиляция исходного файла "cheat/main.cpp")
+  
+C:\Users\gabis\source\repos\pro-bhop\cheat\memory.h(35,62): warning C4244: аргумент: преобразование "uintptr_t" в "DWORD", возможна потеря данных
+  (компиляция исходного файла "cheat/main.cpp")
+  
+C:\Users\gabis\source\repos\pro-bhop\cheat\memory.h(59,71): warning C4244: аргумент: преобразование "const uintptr_t" в "DWORD", возможна потеря данных
+  (компиляция исходного файла "cheat/main.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (компиляция исходного файла "cheat/main.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\gabis\source\repos\pro-bhop\cheat\memory.h(31,19):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  		C:\Users\gabis\source\repos\pro-bhop\cheat\memory.h(31,19):
+  		см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "Memory::Memory"
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 209 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  pro-bhop.vcxproj -> C:\Users\gabis\source\repos\pro-bhop\x64\Release\externalbhop.exe
